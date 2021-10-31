@@ -15,7 +15,6 @@ function preload(){
 
 function setup() {
     createCanvas(windowWidth, windowHeight);
-
     rockMusic.loop();
 
     city = createSprite(width, height-450);
